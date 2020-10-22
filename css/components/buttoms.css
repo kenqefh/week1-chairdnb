@@ -1,7 +1,7 @@
 
 
 /* Button Types */
-.button {
+.button-type__a {
     color: var(--white);
     font-family: var(--font);
     font-style: normal;
@@ -11,18 +11,18 @@
     text-decoration: none;
 }
 
-.button_types {
+.button-type {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.button_types .button {
+.button-types .button_type__a {
     margin: 0 20px 0 20px;
 }
 
-.button-white {
+.button-type__a--white {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,7 +35,7 @@
     border-radius: 4px;
 }
 
-.button-gray-border {
+.button-type__a--gray--border {
     color: var(--dark-grey);
     font-size: 10px;
     line-height: 12px;
@@ -45,7 +45,7 @@
     text-transform: uppercase;
 }
 
-.button-red {
+.button-type__a--red {
     background-color: var(--red);
     font-size: 16px;
     line-height: 19px;
