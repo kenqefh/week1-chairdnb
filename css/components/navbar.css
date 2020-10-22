@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 24px 0 26px;
+
+  background-color: black; /* for can see navbar */
+}
+
+.navbar__logo {
+  font-family: var(--font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: var(--white);
+  line-height: 28px;
+}
+.navbar__logo--lite {
+  font-size: 18px;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 20px;
+}
+.navbar__link {
+  text-decoration: none;
+  color: var(--white);
+
+  font-family: var(--font);
+  font-weight: 500;
+  font-style: normal;
+  size: 14px;
+  line-height: 16px;
+}
