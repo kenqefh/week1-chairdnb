@@ -1,13 +1,19 @@
-/* ToDo 
- * Import fonts from google fonts 
- */
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 :root {
-  /* ToDo 
-   * Declare all color and font variables 
-   */
+  --red: #FF5A5F;
+  --white: #FFFFFF;
+  --white-bg: ##E5E5E5;
+  --dark-grey: #484848;
+  --ligth-grey: #8F8F8F;
+  --middle-grey: #767676;
+  --green: #008489;
+  --purple: #914669;
+  --font: 'Roboto', sans-serif;
 }
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
+
