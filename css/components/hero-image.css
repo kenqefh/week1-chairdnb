@@ -1,5 +1,23 @@
 .hero {
-  height: 310px;
-  border: 1px solid red;
+  height: 750px;
   border-radius: 4px;
+  position: relative;
+}
+.hero__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero__content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero__content-form {
+  position: absolute;
+  top: 132px;
+  left: 80px;
 }
