@@ -20,8 +20,7 @@
 .horizontal-card__raitings {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    align-items: baseline;
     margin-top: 8px;
 }
 
@@ -31,6 +30,7 @@
     font-size: 12px;
     margin-left: 13px;
     color: var(--middle-grey);
+    margin-bottom: 0;
 }
 
 .horizontal-card__p--start {
