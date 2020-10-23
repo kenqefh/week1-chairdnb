@@ -1,7 +1,8 @@
-@import "components/buttoms.css";
 @import "global.css";
 @import "page.css";
 
 /* Components */
 @import "components/navbar.css";
+@import "components/buttoms.css";
+@import "components/vertical-card.css";
 
