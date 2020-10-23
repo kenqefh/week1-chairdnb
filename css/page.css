@@ -25,20 +25,6 @@
     margin-bottom: 24px;
   }
 
-  .content-header {
-    display: flex;
-    height: 750px;
-    flex-direction: column;
-    /* para ver las letras del nav */
-    background-color: var(--green);
-  }
-
-  .content-form form{
-    background-color: var(--white);
-    margin-top: 132px;
-    margin-left: 80px;
-    margin-bottom: 110px;
-  }
 
   .conten-main {
     display: flex;
