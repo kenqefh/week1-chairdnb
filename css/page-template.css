@@ -1,6 +1,7 @@
 .page {
   max-width: 1366px;
   margin: 0 auto;
+  background-color: var(--white-bg);
 }
 .page-container {
   background-color: var(--white);
