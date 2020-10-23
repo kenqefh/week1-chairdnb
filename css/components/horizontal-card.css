@@ -5,6 +5,7 @@
     width: 290px;
     height: auto;
     font-family: var(--font);
+    /* margin-right: 16px; */
 }
 
 .horizontal-card__img {
@@ -36,7 +37,6 @@
 .horizontal-card__p--start {
     font-weight: 500;
     font-size: 12px;
-    margin-left: 8px;
 }
 
 .horizontal-card__p--start ion-icon {
