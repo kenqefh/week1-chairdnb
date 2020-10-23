@@ -1,33 +1,18 @@
-/* 
- * Use classes and containers wisely to keep it dry
- */
-body {
-  background-color: var(--white-bg);
-  max-width: 1336px;
-  margin: 0 auto;
-  font-family: var(--font);
-}
-
-h3 {
-  font-size: 24px;
-  font-weight: 700;
-  color: var(--dark-grey);
-  margin-top: 88px;
-  margin-bottom: 8px;
-}
-
+/*
 p {
   font-size: 16px;
   font-weight: 300;
   color: var(--dark-grey);
   margin-bottom: 24px;
 }
+/* 
+ * Use classes and containers wisely to keep it dry
+ */
+/*
+ body {
+   font-family: var(--font);
+}
 
-  .conten-main {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 80px 88px 80px;
-  }
 
 
 .block-cards {
@@ -36,10 +21,38 @@ p {
   justify-content: space-between;
 }
 
-.block-vertical__h3 {
-  margin-bottom: 51px;
-}
-
 .block-cards__vertical {
   flex-flow: wrap;
 }
+
+.body {
+  background-color: var(--white-bg);
+}
+.page-container {
+  margin: 0 auto;
+  width: 1366px;
+  background-color: var(--white);
+}
+
+/* 
+.articles,
+.article,
+.article__title,
+.article__text,
+.article__body,
+*/ /*
+.article__body > * {
+  margin: 0;
+  padding: 0;
+}
+.articles,
+.article,
+.article__title,
+.article__text,
+.article__body {
+  /*margin: 0;
+  padding: 0;*/
+
+/*}
+
+*/
