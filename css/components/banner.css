@@ -1,0 +1,38 @@
+.banner {
+    width: 1206px;
+    height: 310px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    gap: 39px;
+}
+.banner__title{
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 120px;
+    line-height: 141px;
+    color: var(--white);
+    text-transform: uppercase;
+}
+.button-type__a--gray--border {
+    color: var(--dark-grey);
+    font-size: 10px;
+    line-height: 12px;
+    padding: 8px;
+    border: 1px solid var(--dark-grey);
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.button-type__a--red {
+    background-color: var(--red);
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 48px;
+    border-radius: 4px;
+}
