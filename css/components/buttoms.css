@@ -33,6 +33,8 @@
     line-height: 12px;
     padding: 16px 24px;
     border-radius: 4px;
+    gap: 13px;
+    text-transform: uppercase;
 }
 
 .button-type__a--gray--border {
