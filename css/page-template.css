@@ -13,12 +13,13 @@
 .article__title,
 .article__text,
 .article__body,
-.article__body > * {
-    border: 1px solid red;
-    margin: 0;
-    padding: 0;
-}
 */
+.article__body > * {
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 1;
+}
 .articles,
 .article,
 .article__title,
@@ -29,7 +30,7 @@
 }
 
 .articles {
-  padding: 88px 80px;
+  padding: 88px 79px;
   display: flex;
   flex-direction: column;
   gap: 88px;
@@ -59,7 +60,7 @@
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  gap: 16px;
+  gap: 32px 16px;
 }
 .article__body--extra-top-margen {
   margin-top: calc(51px - 8px);
