@@ -25,34 +25,32 @@ card horizontal
 card mediano horizontal -->
 
 <!--Form-->
-<div class= "forms">
-  <form>
-    <legend>
-      <h1>Book unique accommodations to code as never before</h1>
-    </legend>
-    <div class="form1">
-      <label for="where">Everywhere</label><br>
-      <input type="text" name="where" placeholder="everywhere"style="padding: 16px"><br><br>
+  <form class="form">
+    
+    <h3 class="form__title">Book unique accommodations to code as never before</h3>
+    
+    <div class="form__field">
+      <label for="where"class="form__desc">Everywhere</label>
+      <input type="text" class="form__input"name="where" placeholder="everywhere">
     </div>
-    <div class="labels">
-      <label for="arrival">Arrival</label><br>
-      <label for="departure">Departure</label><br>
+    <div class="form__central">
+      <div class="form__field">
+        <label for="arrival" class="form__desc">Arrival</label>
+        <input type="text" class="form__input"name="datearrival" placeholder="dd/mm/yyyy">
+      </div>
+      <div class="form__field">
+        <label for="departure"class="form__desc">Departure</label>
+        <input type="text" class="form__input" name="datedeparture" placeholder="dd/mm/yyyy">
+      </div>
     </div>
-    <div class="ddmmyyyy">
-      <input type="text1" name="ddmmyyyy" placeholder="dd / mm / yyyy"style="padding: 16px"><br><br>
-      <input type="text1" name="ddmmyyyy" placeholder="dd / mm / yyyy"style="padding: 16px"><br><br>
+    <div class= "form__field">
+      <label for="developers"class="form__desc">Developers</label>
+      <input type="text" class="form__input"name="developers" placeholder="Developers">
     </div>
-    <br/>
-    <div class= "form1">
-      <label for="developers">Developers</label><br>
-      <input type="text" name="developers" placeholder="Developers"style="padding: 16px"><br><br>
-    </div>
-    <div class="buttom">
-      <input type="button" value="Search">
+    <div class="form__search">
+      <a href="" class="button-type__a button-type__a--red">Search</a>
     </div>
   </form>
-</div>
-
 </body>
 
 </html>

@@ -1,75 +1,67 @@
-.forms {
+.form {
     width:391px;
+    height: auto;
     padding: 24px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
     border-radius: 4px;
     font-family: var(--font);
-    border-color: black;
 }
-.legend {
-    width: 343px;
-    height: 114px;
+.form__field {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 5;
+    gap: 8px;
+}
+.form__central {
+    display: flex;
+}
+.form__input{
+    overflow: auto;
+    width: 100%;
+    height: 48px;
+    border-radius: 2px;
+    border: 1px solid #E3E3E3;
+    padding: 16px;
+    
+}
+.form__title{
+    font-family: var(--font);
+    font-style: normal;
     font-weight: 500;
     font-size: 32px;
-    line-height: 37.5px;
     color: var(--dark-grey);
-    margin-bottom: 24px;
+    margin: 8px 0px;
 }
-
-.form1, .labels {
-    font-style: normal;
+.form__desc{
+    font-family: var(--font);
     font-weight: bold;
     font-size: 12px;
     line-height: 14px;
-    text-transform: uppercase;
     color: var(--dark-grey);
+    text-transform: uppercase;
 }
-
-.ddmmyyyy{
-    display: flex;
-    align-items: center;
-    width: 172px;
-    gap: 0px;
+.form__search {
+    align-self: flex-end;
 }
-input[type=text] {
-    border: 1px solid #E3E3E3;
-    border-radius: 2px;
-    width: 343px;
-    height: 48px;
-}
-input[type=text1] {
-    border: 1px solid #E3E3E3;
-    border-radius: 2px;
-    width: 172px;
-    height: 48px;
-}
-.ddmmyyyy {
-    display: flex;
-    width: 67px;
-}
-.labels{
-    display: flex;
-    width: 65px;
-    gap: 63px;
-    padding-bottom: 8px;
-}
-
-.ddmmyyyy {
-    border-radius: 0px 2px 2px 0px;
-}
-.buttom {
-    display: flex;
-    justify-content: flex-end;
-}
-input[type=button] {
+.button-type__a--red {
     background-color: var(--red);
-    border: none;
-    color: white;
-    padding: 15px 48px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 48px;
+    border-radius: 4px;
+}
+.button-type__a {
+    color: var(--white);
     font-family: var(--font);
-    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-  }
+    font-weight: 700;
+    /* letter-spacing: 0em; */
+    text-align: center;
+    text-decoration: none;
+}
+
+
+
