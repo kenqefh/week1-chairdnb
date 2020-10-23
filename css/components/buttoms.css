@@ -1,0 +1,54 @@
+
+
+/* Button Types */
+.button-type__a {
+    color: var(--white);
+    font-family: var(--font);
+    font-style: normal;
+    font-weight: 700;
+    /* letter-spacing: 0em; */
+    text-align: center;
+    text-decoration: none;
+}
+
+.button-type {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-types .button_type__a {
+    margin: 0 20px 0 20px;
+}
+
+.button-type__a--white {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    color: var(--dark-grey);
+    font-size: 10px;
+    line-height: 12px;
+    padding: 16px 24px;
+    border-radius: 4px;
+}
+
+.button-type__a--gray--border {
+    color: var(--dark-grey);
+    font-size: 10px;
+    line-height: 12px;
+    padding: 8px;
+    border: 1px solid var(--dark-grey);
+    border-radius: 2px;
+    text-transform: uppercase;
+}
+
+.button-type__a--red {
+    background-color: var(--red);
+    font-size: 16px;
+    line-height: 19px;
+    padding: 16px 48px;
+    border-radius: 4px;
+}

@@ -1,3 +1,7 @@
 /* 
  * Use classes and containers wisely to keep it dry
  */
+ body {
+    background-color: var(--white-bg);
+    margin: 0;
+  }

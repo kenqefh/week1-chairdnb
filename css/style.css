@@ -1,3 +1,8 @@
-@import 'global.css';
-@import 'page.css';
-@import './components/form.css'
+@import "global.css";
+@import "page.css";
+
+/* Components */
+@import "components/navbar.css";
+@import "components/buttoms.css";
+@import "components/form.css"
+
