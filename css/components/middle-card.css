@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     font-family: var(--font);
+    margin-right: 16px;
 }
 
 .middle-card__img {
@@ -17,7 +18,7 @@
     justify-content: space-evenly;
 }
 
-.middle-card__img ion-icon {
+.middle-card__arroba {
     font-size: 54px;
     font-weight: 700;
     color: var(--white);
@@ -30,6 +31,7 @@
     font-size: 12px;
     text-transform: uppercase;
     margin-top: 10px;
+    margin-bottom: 0;
 }
 
 .middle-card__p--person {
