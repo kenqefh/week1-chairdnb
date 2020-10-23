@@ -3,9 +3,12 @@
 
 /* Components */
 @import "components/navbar.css";
+
 @import "components/buttoms.css";
 @import "components/vertical-card.css";
 @import "components/form.css";
 @import "components/banner.css"
+@import "components/horizontal-card.css";
 
 
+@import "components/hero-image.css";
