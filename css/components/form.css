@@ -44,24 +44,9 @@
 }
 .form__search {
     align-self: flex-end;
+    padding: 24px 0;
 }
-.button-type__a--red {
-    background-color: var(--red);
-    display: block;
-    font-size: 16px;
-    line-height: 19px;
-    padding: 16px 48px;
-    border-radius: 4px;
-}
-.button-type__a {
-    color: var(--white);
-    font-family: var(--font);
-    font-style: normal;
-    font-weight: 700;
-    /* letter-spacing: 0em; */
-    text-align: center;
-    text-decoration: none;
-}
+
 
 
 
