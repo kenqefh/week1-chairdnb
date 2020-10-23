@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
 :root {
-  --red: #FF5A5F;
-  --white: #FFFFFF;
-  --secondary-white: #E3E3E3;
-  --white-bg: ##E5E5E5;
+  --red: #ff5a5f;
+  --white: #ffffff;
+  --secondary-white: #e3e3e3;
+  --white-bg: #e5e5e5;
   --dark-grey: #484848;
-  --ligth-grey: #8F8F8F;
+  --ligth-grey: #8f8f8f;
   --middle-grey: #767676;
   --green: #008489;
   --purple: #914669;
-  --font: 'Roboto', sans-serif;
+  --font: "Roboto", sans-serif;
 }
 
 * {
@@ -17,4 +17,3 @@
   margin: 0;
   padding: 0;
 }
-

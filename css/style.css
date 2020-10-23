@@ -1,5 +1,6 @@
 @import "global.css";
 @import "page.css";
+@import "page-template.css";
 
 /* Components */
 @import "components/navbar.css";
