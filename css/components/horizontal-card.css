@@ -1,0 +1,55 @@
+.horizontal-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 290px;
+    height: auto;
+    font-family: var(--font);
+}
+
+.horizontal-card__img {
+    width: 290px;
+    height: 240px;
+    background-size: cover;
+    background-position: center center;
+    align-self: stretch;
+    border-radius: 4px;
+
+}
+
+.horizontal-card__raitings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.horizontal-card__p {
+    width: 159px;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 13px;
+    color: var(--middle-grey);
+}
+
+.horizontal-card__p--start {
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.horizontal-card__p--start ion-icon {
+    width: 8px;
+    height: 8px;
+    margin-left: 4px;
+    color: var(--red);
+} 
+
+.vertical-card__p--person {
+    font-weight: 400;
+    width: 289px;
+    color: var(--dark-grey);
+    font-size: 14px;
+    margin-top: 8px;
+}
