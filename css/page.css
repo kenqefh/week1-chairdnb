@@ -4,4 +4,58 @@
  body {
     background-color: var(--white-bg);
     margin: 0;
+    width: 1336px;
+    font-family: var(--font);
+    display: flex;
+    flex-direction: column;
   }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--dark-grey);
+    margin-top: 88px;
+    margin-bottom: 8px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--dark-grey);
+    margin-bottom: 24px;
+  }
+
+  .content-header {
+    display: flex;
+    height: 750px;
+    flex-direction: column;
+    /* para ver las letras del nav */
+    background-color: var(--green);
+  }
+
+  .content-form form{
+    background-color: var(--white);
+    margin-top: 132px;
+    margin-left: 80px;
+    margin-bottom: 110px;
+  }
+
+  .conten-main {
+    display: flex;
+    flex-direction: column;
+    padding: 88px 80px;
+  }
+
+.block-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.block-vertical__h3 {
+  margin-bottom: 51px;
+}
+
+.block-cards__vertical {
+  flex-flow: wrap;
+}
