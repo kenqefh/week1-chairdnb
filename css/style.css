@@ -4,5 +4,7 @@
 /* Components */
 @import "components/navbar.css";
 @import "components/buttoms.css";
+@import "components/vertical-card.css";
 @import "components/form.css"
+
 
