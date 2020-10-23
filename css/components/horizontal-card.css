@@ -5,6 +5,7 @@
     width: 290px;
     height: auto;
     font-family: var(--font);
+    gap: 16px;
 }
 
 .horizontal-card__img {

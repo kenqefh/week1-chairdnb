@@ -5,6 +5,7 @@
     width: 188px;
     height: auto;
     font-family: var(--font);
+    margin-right: 16px;
 }
 
 .vertical-card-img {
