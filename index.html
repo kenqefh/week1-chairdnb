@@ -10,9 +10,11 @@
 </head>
 
 <body>
-  <header>
-    <div class="content-header">
-      <!-- navbar -->
+  <!-- hero image -->
+  <div class="hero">
+    <img class="hero__image" src="images/HERO_BG.png" alt="hero image" />
+    <div class="hero__content">
+      <!-- Navigation bar -->
       <nav class="navbar">
         <div class="navbar__logo">
           @ <span class="navbar__logo--lite">chairdnb</span>
@@ -23,39 +25,59 @@
           <a class="navbar__link" href="#">Login</a>
         </div>
       </nav>
-      <!-- END navbar -->
-      <div class="content-form">
-          <!-- from -->
-        <form class="form">
-      
-          <h3 class="form__title">Book unique accommodations to code as never before</h3>
-          
+      <!-- END Navigation bar -->
+      <!--Form-->
+      <form class="form hero__content-form">
+        <h3 class="form__title">
+          Book unique accommodations to code as never before
+        </h3>
+
+        <div class="form__field">
+          <label for="where" class="form__desc">Everywhere</label>
+          <input
+            type="text"
+            class="form__input"
+            name="where"
+            placeholder="everywhere"
+          />
+        </div>
+        <div class="form__central">
           <div class="form__field">
-            <label for="where"class="form__desc">Everywhere</label>
-            <input type="text" class="form__input"name="where" placeholder="everywhere">
+            <label for="arrival" class="form__desc">Arrival</label>
+            <input
+              type="text"
+              class="form__input"
+              name="datearrival"
+              placeholder="dd/mm/yyyy"
+            />
           </div>
-          <div class="form__central">
-            <div class="form__field">
-              <label for="arrival" class="form__desc">Arrival</label>
-              <input type="text" class="form__input"name="datearrival" placeholder="dd/mm/yyyy">
-            </div>
-            <div class="form__field">
-              <label for="departure"class="form__desc">Departure</label>
-              <input type="text" class="form__input" name="datedeparture" placeholder="dd/mm/yyyy">
-            </div>
+          <div class="form__field">
+            <label for="departure" class="form__desc">Departure</label>
+            <input
+              type="text"
+              class="form__input"
+              name="datedeparture"
+              placeholder="dd/mm/yyyy"
+            />
           </div>
-          <div class= "form__field">
-            <label for="developers"class="form__desc">Developers</label>
-            <input type="text" class="form__input"name="developers" placeholder="Developers">
-          </div>
-          <div class="form__search">
-            <a href="" class="button-type__a button-type__a--red">Search</a>
-          </div>
-        </form>
-        <!-- END form -->
-      </div>
+        </div>
+        <div class="form__field">
+          <label for="developers" class="form__desc">Developers</label>
+          <input
+            type="text"
+            class="form__input"
+            name="developers"
+            placeholder="Developers"
+          />
+        </div>
+        <div class="form__search">
+          <a href="" class="button-type__a button-type__a--red">Search</a>
+        </div>
+      </form>
+      <!-- END Form-->
     </div>
-  </header>
+  </div>
+  <!-- END hero image -->
   <div class="conten-main">
       <h3>Chairdnb Plus accommodation</h3>
       <p>A selection of accommodation verified according to quality and connectivity criteria</p>
@@ -299,6 +321,7 @@
         <!-- END vertical-card -->
       </div>
       <!-- END block vertical cards -->
+      <!-- block middle card -->
       <h3>Featured Chairdnb Plus Destinations</h3>
       <p>Multi-day pair programming sessions organized by local experts with activities, meals and accommodation included</p>
       <div class="block-cards">
@@ -333,6 +356,7 @@
 
           <!-- END middle-card -->
       </div>
+      <!-- END block middle card -->
   </div>
 </body>
 
