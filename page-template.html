@@ -8,541 +8,575 @@
     <title>Chairdnb</title>
   </head>
 
-  <body class="page">
-    <!-- hero image -->
-    <div class="hero">
-      <img class="hero__image" src="images/HERO_BG.png" alt="hero image" />
-      <div class="hero__content">
-        <!-- header -->
-        <header>
-          <!-- Navigation bar -->
-          <nav class="navbar">
-            <div class="navbar__logo">
-              @ <span class="navbar__logo--lite">chairdnb</span>
-            </div>
-            <div class="navbar__links">
-              <a class="navbar__link" href="#">Become a host</a>
-              <a class="navbar__link" href="#">Create your coding experience</a>
-              <a class="navbar__link" href="#">Login</a>
-            </div>
-          </nav>
-          <!-- END Navigation bar -->
-        </header>
-        <!--Form-->
-        <form class="form hero__content-form">
-          <h3 class="form__title">
-            Book unique accommodations to code as never before
-          </h3>
+  <body class="body">
+    <div class="page-container">
+      <!-- hero image -->
+      <div class="hero">
+        <img class="hero__image" src="images/HERO_BG.png" alt="hero image" />
+        <div class="hero__content">
+          <!-- header -->
+          <header>
+            <!-- Navigation bar -->
+            <nav class="navbar">
+              <div class="navbar__logo">
+                @ <span class="navbar__logo--lite">chairdnb</span>
+              </div>
+              <div class="navbar__links">
+                <a class="navbar__link" href="#">Become a host</a>
+                <a class="navbar__link" href="#"
+                  >Create your coding experience</a
+                >
+                <a class="navbar__link" href="#">Login</a>
+              </div>
+            </nav>
+            <!-- END Navigation bar -->
+          </header>
+          <!--Form-->
+          <form class="form hero__content-form">
+            <h3 class="form__title">
+              Book unique accommodations to code as never before
+            </h3>
 
-          <div class="form__field">
-            <label for="where" class="form__desc">Everywhere</label>
-            <input
-              type="text"
-              class="form__input"
-              name="where"
-              placeholder="everywhere"
-            />
-          </div>
-          <div class="form__central">
             <div class="form__field">
-              <label for="arrival" class="form__desc">Arrival</label>
+              <label for="where" class="form__desc">Everywhere</label>
               <input
                 type="text"
                 class="form__input"
-                name="datearrival"
-                placeholder="dd/mm/yyyy"
+                name="where"
+                placeholder="everywhere"
               />
             </div>
+            <div class="form__central">
+              <div class="form__field">
+                <label for="arrival" class="form__desc">Arrival</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  name="datearrival"
+                  placeholder="dd/mm/yyyy"
+                />
+              </div>
+              <div class="form__field">
+                <label for="departure" class="form__desc">Departure</label>
+                <input
+                  type="text"
+                  class="form__input"
+                  name="datedeparture"
+                  placeholder="dd/mm/yyyy"
+                />
+              </div>
+            </div>
             <div class="form__field">
-              <label for="departure" class="form__desc">Departure</label>
+              <label for="developers" class="form__desc">Developers</label>
               <input
                 type="text"
                 class="form__input"
-                name="datedeparture"
-                placeholder="dd/mm/yyyy"
+                name="developers"
+                placeholder="Developers"
               />
             </div>
-          </div>
-          <div class="form__field">
-            <label for="developers" class="form__desc">Developers</label>
-            <input
-              type="text"
-              class="form__input"
-              name="developers"
-              placeholder="Developers"
-            />
-          </div>
-          <div class="form__search">
-            <a href="" class="button-type__a button-type__a--red">Search</a>
-          </div>
-        </form>
-        <!-- END Form-->
+            <div class="form__search">
+              <a href="" class="button-type__a button-type__a--red">Search</a>
+            </div>
+          </form>
+          <!-- END Form-->
+        </div>
       </div>
+      <!-- END hero image - HEADER -->
+
+      <main class="page-container">
+        <section class="articles">
+          <!-- Explorer Chairdnb -->
+          <article class="article">
+            <h3 class="article__title">Explorer Chairdnb</h3>
+            <div class="article__body">
+              <div class="bg_card">
+                <img
+                  class="bg_card__image"
+                  src="images/Accommodations.png"
+                  alt="Accommodations"
+                />
+                <p class="bg_card__text">Accommodations</p>
+              </div>
+
+              <div class="bg_card">
+                <img
+                  class="bg_card__image"
+                  src="images/Experiences.png"
+                  alt="Experiences"
+                />
+                <p class="bg_card__text">Experiences</p>
+              </div>
+
+              <div class="bg_card">
+                <img
+                  class="bg_card__image"
+                  src="images/Adventures.png"
+                  alt="Adventures"
+                />
+                <p class="bg_card__text">Adventures</p>
+              </div>
+            </div>
+          </article>
+          <!-- Chairdnb Plus accommodation -->
+          <article class="article">
+            <h3 class="article__title">Chairdnb Plus accommodation</h3>
+            <p class="article__text">
+              A selection of accommodation verified according to quality and
+              connectivity criteria
+            </p>
+            <div class="article__body">
+              <!-- banner -->
+              <div
+                class="banner"
+                style="background-image: url(images/Rectangle\ 5.png)"
+              >
+                <span class="banner__title">@</span>
+                <a href="" class="button-type__a button-type__a--white"
+                  >Discover accommodations<ion-icon
+                    name="chevron-forward-outline"
+                  ></ion-icon>
+                </a>
+              </div>
+              <!-- END banner -->
+            </div>
+          </article>
+          <!-- Discover Chairdnb adventures -->
+          <article class="article">
+            <h3 class="article__title">Discover Chairdnb adventures</h3>
+            <p class="article__text">
+              Multi-day hackatons organized by local experts with activities,
+              meals and accommodation included
+            </p>
+            <div class="article__body">
+              <!-- <div class="block-cards"> -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imagecayman.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Cayman Islands</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imageuruguay.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Uruguay</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imageiceland.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Iceland</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imagemongolia.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Mongolia</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imagebahrain.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Bahrain</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imagebosniaa.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Bosnia and Herzegovina</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- </div> -->
+            </div>
+          </article>
+
+          <!-- Accommodation around the world -->
+          <article class="article">
+            <h3 class="article__title">Accommodation around the world</h3>
+            <div class="article__body article__body--extra-top-margen">
+              <div class="horizontal-card">
+                <div
+                  class="horizontal-card__img"
+                  style="background-image: url(images/Rectangle\ 7mid1.png)"
+                ></div>
+                <div class="horizontal-card__raitings">
+                  <a href="" class="button-type__a button-type__a--gray--border"
+                    >Superhost</a
+                  >
+                  <p class="horizontal-card__p">Toledo</p>
+                  <p class="horizontal-card__p--start">
+                    <ion-icon name="star"></ion-icon> 5.0
+                  </p>
+                </div>
+                <p class="vertical-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+              <!-- END horizontal-card -->
+              <!-- horizontal-card -->
+              <div class="horizontal-card">
+                <div
+                  class="horizontal-card__img"
+                  style="background-image: url(images/Rectangle\ 7mid2.png)"
+                ></div>
+                <div class="horizontal-card__raitings">
+                  <a href="" class="button-type__a button-type__a--gray--border"
+                    >Superhost</a
+                  >
+                  <p class="horizontal-card__p">Mesa</p>
+                  <p class="horizontal-card__p--start">
+                    <ion-icon name="star"></ion-icon> 5.0
+                  </p>
+                </div>
+                <p class="vertical-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+              <!-- END horizontal-card -->
+              <!-- horizontal-card -->
+              <div class="horizontal-card">
+                <div
+                  class="horizontal-card__img"
+                  style="background-image: url(images/Rectangle\ 7mid3.png)"
+                ></div>
+                <div class="horizontal-card__raitings">
+                  <a href="" class="button-type__a button-type__a--gray--border"
+                    >Superhost</a
+                  >
+                  <p class="horizontal-card__p">Utica</p>
+                  <p class="horizontal-card__p--start">
+                    <ion-icon name="star"></ion-icon> 5.0
+                  </p>
+                </div>
+                <p class="vertical-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+              <!-- END horizontal-card -->
+              <!-- horizontal-card -->
+              <div class="horizontal-card">
+                <div
+                  class="horizontal-card__img"
+                  style="background-image: url(images/Rectangle\ 7mid4.png)"
+                ></div>
+                <div class="horizontal-card__raitings">
+                  <a href="" class="button-type__a button-type__a--gray--border"
+                    >Superhost</a
+                  >
+                  <p class="horizontal-card__p">South Bend</p>
+                  <p class="horizontal-card__p--start">
+                    <ion-icon name="star"></ion-icon> 5.0
+                  </p>
+                </div>
+                <p class="vertical-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+              <!-- END horizontal-card -->
+              <!-- horizontal-card -->
+              <div class="horizontal-card">
+                <div
+                  class="horizontal-card__img"
+                  style="background-image: url(images/Rectangle\ 7mid5.png)"
+                ></div>
+                <div class="horizontal-card__raitings">
+                  <a href="" class="button-type__a button-type__a--gray--border"
+                    >Superhost</a
+                  >
+                  <p class="horizontal-card__p">Toledo</p>
+                  <p class="horizontal-card__p--start">
+                    <ion-icon name="star"></ion-icon> 5.0
+                  </p>
+                </div>
+                <p class="vertical-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+              <!-- END horizontal-card -->
+              <!-- horizontal-card -->
+              <div class="horizontal-card">
+                <div
+                  class="horizontal-card__img"
+                  style="background-image: url(images/Rectangle-7.png)"
+                ></div>
+                <div class="horizontal-card__raitings">
+                  <a href="" class="button-type__a button-type__a--gray--border"
+                    >Superhost</a
+                  >
+                  <p class="horizontal-card__p">Mesa</p>
+                  <p class="horizontal-card__p--start">
+                    <ion-icon name="star"></ion-icon> 5.0
+                  </p>
+                </div>
+                <p class="vertical-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+              <!-- END horizontal-card -->
+              <!-- horizontal-card -->
+              <div class="horizontal-card">
+                <div
+                  class="horizontal-card__img"
+                  style="background-image: url(images/Rectangle\ 7mid7.png)"
+                ></div>
+                <div class="horizontal-card__raitings">
+                  <a href="" class="button-type__a button-type__a--gray--border"
+                    >Superhost</a
+                  >
+                  <p class="horizontal-card__p">Utica</p>
+                  <p class="horizontal-card__p--start">
+                    <ion-icon name="star"></ion-icon> 5.0
+                  </p>
+                </div>
+                <p class="vertical-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+              <!-- END horizontal-card -->
+              <!-- horizontal-card -->
+              <div class="horizontal-card">
+                <div
+                  class="horizontal-card__img"
+                  style="background-image: url(images/Rectangle\ 7mid8.png)"
+                ></div>
+                <div class="horizontal-card__raitings">
+                  <a href="" class="button-type__a button-type__a--gray--border"
+                    >Superhost</a
+                  >
+                  <p class="horizontal-card__p">Mesa</p>
+                  <p class="horizontal-card__p--start">
+                    <ion-icon name="star"></ion-icon> 5.0
+                  </p>
+                </div>
+                <p class="vertical-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Highly rated experiences -->
+          <article class="article">
+            <h3 class="article__title">Highly rated experiences</h3>
+            <p class="article__text">
+              Multi-day extreme programming sessions organized by local experts
+              with activities, meals and accommodation included
+            </p>
+            <div class="article__body">
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Image.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Cayman Islands</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imagevert2.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Uruguay</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imagevert3.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Iceland</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imagevert4.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Mongolia</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imagevert5.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Bahrain</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+              <!-- vertical-card -->
+              <div class="vertical-card">
+                <div
+                  class="vertical-card-img"
+                  style="background-image: url(images/Imagevert6.png)"
+                ></div>
+                <h5 class="vertical-card__h5">Bosnia and Herzegovina</h5>
+                <h4 class="vertical-card__h4">
+                  2 Nights PACKAGE All Inclusive
+                </h4>
+                <p class="vertical-card__p">From 577 € / person - 3 days</p>
+                <p class="vertical-card__p--start">
+                  5.0 <ion-icon name="star"></ion-icon>
+                </p>
+              </div>
+              <!-- END vertical-card -->
+            </div>
+          </article>
+          <!-- Featured Chairdnb Plus Destinations -->
+
+          <article class="article">
+            <h3 class="article__title">Featured Chairdnb Plus Destinations</h3>
+            <p class="article__text">
+              Multi-day pair programming sessions organized by local experts
+              with activities, meals and accommodation included
+            </p>
+            <div class="article__body">
+              <div class="middle-card">
+                <div
+                  class="middle-card__img"
+                  style="background-image: url(images/Image-med-card.png)"
+                >
+                  <ion-icon name="at-outline"></ion-icon>
+                </div>
+                <p class="middle-card__p">More than 200 verified stays</p>
+                <p class="middle-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+
+              <!-- END middle-card -->
+              <!-- middle-card -->
+              <div class="middle-card">
+                <div
+                  class="middle-card__img"
+                  style="background-image: url(images/Imagearroba2.png)"
+                >
+                  <ion-icon name="at-outline"></ion-icon>
+                </div>
+                <p class="middle-card__p">More than 200 verified stays</p>
+                <p class="middle-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+
+              <!-- END middle-card -->
+              <!-- middle-card -->
+              <div class="middle-card">
+                <div
+                  class="middle-card__img"
+                  style="background-image: url(images/Imagearroba3.png)"
+                >
+                  <ion-icon name="at-outline"></ion-icon>
+                </div>
+                <p class="middle-card__p">More than 200 verified stays</p>
+                <p class="middle-card__p--person">
+                  From 577 € / person - 3 days
+                </p>
+              </div>
+
+              <!-- END middle-card -->
+            </div>
+          </article>
+        </section>
+      </main>
     </div>
-    <!-- END hero image - HEADER -->
-
-    <main class="page-container">
-      <section class="articles">
-        <!-- Explorer Chairdnb -->
-        <article class="article">
-          <h3 class="article__title">Explorer Chairdnb</h3>
-          <div class="article__body">
-            <div class="bg_card">
-              <img
-                class="bg_card__image"
-                src="images/Accommodations.png"
-                alt="Accommodations"
-              />
-              <p class="bg_card__text">Accommodations</p>
-            </div>
-
-            <div class="bg_card">
-              <img
-                class="bg_card__image"
-                src="images/Experiences.png"
-                alt="Experiences"
-              />
-              <p class="bg_card__text">Experiences</p>
-            </div>
-
-            <div class="bg_card">
-              <img
-                class="bg_card__image"
-                src="images/Adventures.png"
-                alt="Adventures"
-              />
-              <p class="bg_card__text">Adventures</p>
-            </div>
-          </div>
-        </article>
-        <!-- Chairdnb Plus accommodation -->
-        <article class="article">
-          <h3 class="article__title">Chairdnb Plus accommodation</h3>
-          <p class="article__text">
-            A selection of accommodation verified according to quality and
-            connectivity criteria
-          </p>
-          <div class="article__body">
-            <!-- banner -->
-            <div
-              class="banner"
-              style="background-image: url(images/Rectangle\ 5.png)"
-            >
-              <span class="banner__title">@</span>
-              <a href="" class="button-type__a button-type__a--white"
-                >Discover accommodations<ion-icon
-                  name="chevron-forward-outline"
-                ></ion-icon>
-              </a>
-            </div>
-            <!-- END banner -->
-          </div>
-        </article>
-        <!-- Discover Chairdnb adventures -->
-        <article class="article">
-          <h3 class="article__title">Discover Chairdnb adventures</h3>
-          <p class="article__text">
-            Multi-day hackatons organized by local experts with activities,
-            meals and accommodation included
-          </p>
-          <div class="article__body">
-            <!-- <div class="block-cards"> -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imagecayman.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Cayman Islands</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imageuruguay.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Uruguay</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imageiceland.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Iceland</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imagemongolia.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Mongolia</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imagebahrain.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Bahrain</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imagebosniaa.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Bosnia and Herzegovina</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- </div> -->
-          </div>
-        </article>
-
-        <!-- Accommodation around the world -->
-        <article class="article">
-          <h3 class="article__title">Accommodation around the world</h3>
-          <div class="article__body article__body--extra-top-margen">
-            <div class="horizontal-card">
-              <div
-                class="horizontal-card__img"
-                style="background-image: url(images/Rectangle\ 7mid1.png)"
-              ></div>
-              <div class="horizontal-card__raitings">
-                <a href="" class="button-type__a button-type__a--gray--border"
-                  >Superhost</a
-                >
-                <p class="horizontal-card__p">Toledo</p>
-                <p class="horizontal-card__p--start">
-                  <ion-icon name="star"></ion-icon> 5.0
-                </p>
-              </div>
-              <p class="vertical-card__p--person">
-                From 577 € / person - 3 days
-              </p>
-            </div>
-            <!-- END horizontal-card -->
-            <!-- horizontal-card -->
-            <div class="horizontal-card">
-              <div
-                class="horizontal-card__img"
-                style="background-image: url(images/Rectangle\ 7mid2.png)"
-              ></div>
-              <div class="horizontal-card__raitings">
-                <a href="" class="button-type__a button-type__a--gray--border"
-                  >Superhost</a
-                >
-                <p class="horizontal-card__p">Mesa</p>
-                <p class="horizontal-card__p--start">
-                  <ion-icon name="star"></ion-icon> 5.0
-                </p>
-              </div>
-              <p class="vertical-card__p--person">
-                From 577 € / person - 3 days
-              </p>
-            </div>
-            <!-- END horizontal-card -->
-            <!-- horizontal-card -->
-            <div class="horizontal-card">
-              <div
-                class="horizontal-card__img"
-                style="background-image: url(images/Rectangle\ 7mid3.png)"
-              ></div>
-              <div class="horizontal-card__raitings">
-                <a href="" class="button-type__a button-type__a--gray--border"
-                  >Superhost</a
-                >
-                <p class="horizontal-card__p">Utica</p>
-                <p class="horizontal-card__p--start">
-                  <ion-icon name="star"></ion-icon> 5.0
-                </p>
-              </div>
-              <p class="vertical-card__p--person">
-                From 577 € / person - 3 days
-              </p>
-            </div>
-            <!-- END horizontal-card -->
-            <!-- horizontal-card -->
-            <div class="horizontal-card">
-              <div
-                class="horizontal-card__img"
-                style="background-image: url(images/Rectangle\ 7mid4.png)"
-              ></div>
-              <div class="horizontal-card__raitings">
-                <a href="" class="button-type__a button-type__a--gray--border"
-                  >Superhost</a
-                >
-                <p class="horizontal-card__p">South Bend</p>
-                <p class="horizontal-card__p--start">
-                  <ion-icon name="star"></ion-icon> 5.0
-                </p>
-              </div>
-              <p class="vertical-card__p--person">
-                From 577 € / person - 3 days
-              </p>
-            </div>
-            <!-- END horizontal-card -->
-            <!-- horizontal-card -->
-            <div class="horizontal-card">
-              <div
-                class="horizontal-card__img"
-                style="background-image: url(images/Rectangle\ 7mid5.png)"
-              ></div>
-              <div class="horizontal-card__raitings">
-                <a href="" class="button-type__a button-type__a--gray--border"
-                  >Superhost</a
-                >
-                <p class="horizontal-card__p">Toledo</p>
-                <p class="horizontal-card__p--start">
-                  <ion-icon name="star"></ion-icon> 5.0
-                </p>
-              </div>
-              <p class="vertical-card__p--person">
-                From 577 € / person - 3 days
-              </p>
-            </div>
-            <!-- END horizontal-card -->
-            <!-- horizontal-card -->
-            <div class="horizontal-card">
-              <div
-                class="horizontal-card__img"
-                style="background-image: url(images/Rectangle-7.png)"
-              ></div>
-              <div class="horizontal-card__raitings">
-                <a href="" class="button-type__a button-type__a--gray--border"
-                  >Superhost</a
-                >
-                <p class="horizontal-card__p">Mesa</p>
-                <p class="horizontal-card__p--start">
-                  <ion-icon name="star"></ion-icon> 5.0
-                </p>
-              </div>
-              <p class="vertical-card__p--person">
-                From 577 € / person - 3 days
-              </p>
-            </div>
-            <!-- END horizontal-card -->
-            <!-- horizontal-card -->
-            <div class="horizontal-card">
-              <div
-                class="horizontal-card__img"
-                style="background-image: url(images/Rectangle\ 7mid7.png)"
-              ></div>
-              <div class="horizontal-card__raitings">
-                <a href="" class="button-type__a button-type__a--gray--border"
-                  >Superhost</a
-                >
-                <p class="horizontal-card__p">Utica</p>
-                <p class="horizontal-card__p--start">
-                  <ion-icon name="star"></ion-icon> 5.0
-                </p>
-              </div>
-              <p class="vertical-card__p--person">
-                From 577 € / person - 3 days
-              </p>
-            </div>
-            <!-- END horizontal-card -->
-            <!-- horizontal-card -->
-            <div class="horizontal-card">
-              <div
-                class="horizontal-card__img"
-                style="background-image: url(images/Rectangle\ 7mid8.png)"
-              ></div>
-              <div class="horizontal-card__raitings">
-                <a href="" class="button-type__a button-type__a--gray--border"
-                  >Superhost</a
-                >
-                <p class="horizontal-card__p">Mesa</p>
-                <p class="horizontal-card__p--start">
-                  <ion-icon name="star"></ion-icon> 5.0
-                </p>
-              </div>
-              <p class="vertical-card__p--person">
-                From 577 € / person - 3 days
-              </p>
-            </div>
-          </div>
-        </article>
-
-        <!-- Highly rated experiences -->
-        <article class="article">
-          <h3 class="article__title">Highly rated experiences</h3>
-          <p class="article__text">
-            Multi-day extreme programming sessions organized by local experts
-            with activities, meals and accommodation included
-          </p>
-          <div class="article__body">
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Image.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Cayman Islands</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imagevert2.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Uruguay</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imagevert3.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Iceland</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imagevert4.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Mongolia</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imagevert5.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Bahrain</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-            <!-- vertical-card -->
-            <div class="vertical-card">
-              <div
-                class="vertical-card-img"
-                style="background-image: url(images/Imagevert6.png)"
-              ></div>
-              <h5 class="vertical-card__h5">Bosnia and Herzegovina</h5>
-              <h4 class="vertical-card__h4">2 Nights PACKAGE All Inclusive</h4>
-              <p class="vertical-card__p">From 577 € / person - 3 days</p>
-              <p class="vertical-card__p--start">
-                5.0 <ion-icon name="star"></ion-icon>
-              </p>
-            </div>
-            <!-- END vertical-card -->
-          </div>
-        </article>
-        <!-- Featured Chairdnb Plus Destinations -->
-
-        <article class="article">
-          <h3 class="article__title">Featured Chairdnb Plus Destinations</h3>
-          <p class="article__text">
-            Multi-day pair programming sessions organized by local experts with
-            activities, meals and accommodation included
-          </p>
-          <div class="article__body">
-            <div class="middle-card">
-              <div
-                class="middle-card__img"
-                style="background-image: url(images/Image-med-card.png)"
-              >
-                <ion-icon name="at-outline"></ion-icon>
-              </div>
-              <p class="middle-card__p">More than 200 verified stays</p>
-              <p class="middle-card__p--person">From 577 € / person - 3 days</p>
-            </div>
-
-            <!-- END middle-card -->
-            <!-- middle-card -->
-            <div class="middle-card">
-              <div
-                class="middle-card__img"
-                style="background-image: url(images/Imagearroba2.png)"
-              >
-                <ion-icon name="at-outline"></ion-icon>
-              </div>
-              <p class="middle-card__p">More than 200 verified stays</p>
-              <p class="middle-card__p--person">From 577 € / person - 3 days</p>
-            </div>
-
-            <!-- END middle-card -->
-            <!-- middle-card -->
-            <div class="middle-card">
-              <div
-                class="middle-card__img"
-                style="background-image: url(images/Imagearroba3.png)"
-              >
-                <ion-icon name="at-outline"></ion-icon>
-              </div>
-              <p class="middle-card__p">More than 200 verified stays</p>
-              <p class="middle-card__p--person">From 577 € / person - 3 days</p>
-            </div>
-
-            <!-- END middle-card -->
-          </div>
-        </article>
-      </section>
-    </main>
   </body>
 </html>
