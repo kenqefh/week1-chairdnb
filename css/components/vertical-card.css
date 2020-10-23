@@ -39,6 +39,7 @@
     font-size: 14px;
     color: var(--dark-grey);
     margin-top: 8px;
+    margin-bottom: 0;
 }
 
 .vertical-card__p--start {
